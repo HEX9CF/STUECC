@@ -1,0 +1,14 @@
+<!-- index.wxml -->
+<view class="page-body">
+<view>
+    <image style="width: 100%" src="../../images/banner1.jpg" mode="widthFix"></image>
+</view>
+<view>
+    <rich-text nodes="<br>"></rich-text>
+    <rich-text nodes="{{motto}}"></rich-text>
+    <rich-text nodes="{{hr}}"></rich-text>
+    <rich-text nodes="{{campusIntro}}" space="nbsp"></rich-text>
+    <rich-text nodes="{{hr}}"></rich-text>
+    <rich-text nodes="{{footer}}"></rich-text>
+</view>
+</view>

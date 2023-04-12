@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "STUECC",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#bfc1ab",
+    "selectedColor": "#99ccff",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBarIcon1.png",
+        "selectedIconPath": "images/tabBarIcon2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/tabBarIcon1.png",
+        "selectedIconPath": "images/tabBarIcon2.png",
+        "text": "地图"
+      }
+    ]
+  }
+}
