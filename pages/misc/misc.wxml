@@ -1,0 +1,7 @@
+<view>
+  <rich-text nodes="{{ title }}"></rich-text>
+  <rich-text nodes="{{ hr }}"></rich-text>
+  <rich-text nodes="{{ express }}" space="nbsp"></rich-text>
+  <rich-text nodes="{{ hospital }}" space="nbsp"></rich-text>
+  <rich-text nodes="{{ tel }}" space="nbsp"></rich-text>
+</view>

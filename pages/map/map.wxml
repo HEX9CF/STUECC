@@ -1,5 +1,6 @@
-<view class="page-body">
+<view>
   <rich-text nodes="{{ title }}"></rich-text>
+  <rich-text nodes="{{hr}}"></rich-text>
   <view class="page-section page-section-gap">
     <map
       id="myMap"
@@ -22,8 +23,6 @@
     <button bindtap="includePoints" class="page-body-button" type="primary">缩放视野展示所有经纬度</button>
   </view> -->
 <image src="../../images/map1.jpg" style="width: 100%" mode="widthFix"></image>
-  <rich-text nodes="<br>"></rich-text>
 <image src="../../images/map2.jpg" style="width: 100%" mode="widthFix"></image>
-  <rich-text nodes="<br>"></rich-text>
 <image src="../../images/map3.jpg" style="width: 100%" mode="widthFix"></image>
 </view>

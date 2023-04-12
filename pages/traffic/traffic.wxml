@@ -1,0 +1,6 @@
+<view>
+  <rich-text nodes="{{ title }}"></rich-text>
+  <rich-text nodes="{{ hr }}"></rich-text>
+  <rich-text nodes="{{ bus }}"></rich-text>
+<image src="../../images/bus1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
+</view>

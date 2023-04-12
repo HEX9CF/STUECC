@@ -2,6 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/map/map",
+    "pages/food/food",
+    "pages/traffic/traffic",
+    "pages/misc/misc",
     "pages/logs/logs"
   ],
   "window":{
@@ -26,6 +29,24 @@
         "iconPath": "images/tabBarIcon1.png",
         "selectedIconPath": "images/tabBarIcon2.png",
         "text": "地图"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "iconPath": "images/tabBarIcon1.png",
+        "selectedIconPath": "images/tabBarIcon2.png",
+        "text": "干饭"
+      },
+      {
+        "pagePath": "pages/traffic/traffic",
+        "iconPath": "images/tabBarIcon1.png",
+        "selectedIconPath": "images/tabBarIcon2.png",
+        "text": "交通"
+      },
+      {
+        "pagePath": "pages/misc/misc",
+        "iconPath": "images/tabBarIcon1.png",
+        "selectedIconPath": "images/tabBarIcon2.png",
+        "text": "其他"
       }
     ]
   }

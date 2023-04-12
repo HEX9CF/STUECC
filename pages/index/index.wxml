@@ -1,5 +1,4 @@
-<!-- index.wxml -->
-<view class="page-body">
+<view>
 <view>
     <image style="width: 100%" src="../../images/banner1.jpg" mode="widthFix"></image>
 </view>

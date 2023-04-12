@@ -3,9 +3,8 @@ Page({
     title: `
     <br>
       <p style="text-align: center">
-        <h3>东海岸校区 校园地图</h3>
+        <h2>东海岸校区 校园地图</h2>
       </p>
-    <br>
     `,
     hr:`<br><hr><br>`,
     latitude: 23.413634,
