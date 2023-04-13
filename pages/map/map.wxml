@@ -15,13 +15,14 @@
       enable-satellite="true"
     ></map>
   </view>
+  <rich-text nodes="<br>"></rich-text>
+  <view class="btn-area">
+    <!-- <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button> -->
+    <!-- <button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button> -->
+    <!-- <button bindtap="translateMarker" class="page-body-button" type="primary">移动标注</button> -->
+    <button bindtap="includePoints" class="page-body-button" type="primary">定位至东海岸校区</button>
+  </view>
   <rich-text nodes="{{hr}}"></rich-text>
-  <!-- <view class="btn-area">
-    <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button>
-    <button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button>
-    <button bindtap="translateMarker" class="page-body-button" type="primary">移动标注</button>
-    <button bindtap="includePoints" class="page-body-button" type="primary">缩放视野展示所有经纬度</button>
-  </view> -->
 <image src="../../images/map1.jpg" style="width: 100%" mode="widthFix"></image>
 <image src="../../images/map2.jpg" style="width: 100%" mode="widthFix"></image>
 <image src="../../images/map3.jpg" style="width: 100%" mode="widthFix"></image>

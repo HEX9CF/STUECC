@@ -1,77 +1,67 @@
 // pages/traffic/traffic.js
 Page({
 
-    /**
-     * 页面的初始数据
-     */
-    data: {
-        title: `
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    title: `
     <br>
       <p style="text-align: center">
         <h2>交通</h2>
+      <p style="font-size: 12px">
+错过了眼前的这辆公交车，需要花更多时间再等下一班了
+      </p>
       </p>
     `,
     hr: `<br><hr><br>`,
+    latitude: 23.411472,
+    longitude: 116.837035,
+    markers: [
+      {
+        id: 1,
+        latitude: 23.411472,
+        longitude: 116.837035,
+        name: '汕头大学东海岸校区公交站'
+      },
+    ],
     bus: `
       <p style="text-align: center">
         <h3>公交路线</h3>
       </p>
+      <p style="font-size: 12px; text-align: center">来源：http://stuecc.stu.edu.cn/zhfw/jtzy.htm </p>
+      <p>    目前，途径汕头大学东海岸校区有K9路公交车，K9路公交车起于人民广场西，途经利安路-跃进路-新兴路-海滨路-金环路-中山路-衡山路-珠城路-海兴路-海滨路-泰星路-阿里山路-东海岸大道-五洲大道-翠峰路，止于汕头大学东海岸校区，票价为一票制2元。汕头公交K9路发车时间为06:00-18:30，从人民广场西单向发班，到达汕头大学东海岸校区上下客后折返。
+      </p>
     `
-    },
-
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad(options) {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload() {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh() {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom() {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage() {
-
-    }
+  },
+  onReady: function (e) {
+    this.mapCtx = wx.createMapContext('myMap')
+  },
+  includePoints: function () {
+    this.mapCtx.includePoints({
+      padding: [10],
+      points: [
+      {
+        latitude: 23.411472,
+        longitude: 116.837035,
+        // name: '汕头大学东海岸校区公交站'
+      },
+      {
+        latitude: 23.411702,
+        longitude: 116.837567,
+        // name: '汕头大学东海岸校区南校门'
+      },
+      {
+        latitude: 23.412937,
+        longitude: 116.838726,
+        // name: '汕头大学东海岸校区图书馆'
+      },
+      {
+        latitude: 23.412847,
+        longitude: 116.837107,
+        // name: '汕头大学东海岸校区E栋教学楼'
+      }
+    ]
+    })
+  }
 })

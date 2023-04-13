@@ -9,6 +9,9 @@ Page({
     <br>
       <p style="text-align: center">
         <h2>其他</h2>
+        <p style="font-size: 12px">
+        生活像海洋，只有意志坚强的人才能到达彼岸
+        </p>
       </p>
     `,
         hr: `<br><hr><br>`,
@@ -16,17 +19,41 @@ Page({
       <p style="text-align: center">
         <h3>快递</h3>
       </p>
-        <p>
-邮政快递点：学生宿舍J座1楼。<br>
-收件地址:广东省汕头市澄海区翠峰路汕头大学东海岸校区。<br>
+      <p style="text-align: center">
+邮政快递点：学生宿舍J座1楼<br>
+收件地址：<br>广东省汕头市澄海区翠峰路汕头大学东海岸校区<br>
         </p>
     `,
         hospital: `
       <p style="text-align: center">
-        <h3>校医室</h3>
+        <h3>校医院</h3>
       </p>
-      <p>
-东海岸校区校医室：学生宿舍B座2楼
+      <p style="text-align: center">
+东海岸校区校医院：学生宿舍B座2楼<br>
+急诊电话：0754-86500120
+      </p>
+    `,
+    facility: `
+      <p style="text-align: center">
+        <h3>生活配套设施</h3>
+      </p>
+      <p style="text-align: center">
+超市：第二食堂一楼西北侧<br>
+理发店：第二食堂旁<br>
+ATM自助存取款一体机：第二食堂旁<br>
+自助洗衣机与烘干机：学生宿舍一楼<br>
+自助打印机：学生宿舍一楼<br>
+        </p>
+    `,
+    website: `
+      <p style="text-align: center">
+        <h3>智慧校园 常用网址</h3>
+      <p style="font-size: 12px">
+      需接入汕头大学校园网
+      </p>
+      </p>
+      <p style="text-align: center">
+汕头大学主页<br>http://www.stu.edu.cn<br>宿舍管理系统<br>http://xg.stu.edu.cn<br>校内办公信息网<br>http://oa.stu.edu.cn<br>水电管理系统<br>http://power.stu.edu.cn<br>数字化教学平台<br>http://my.stu.edu.cn<br>宿舍报修系统<br>http://repair.stu.edu.cn<br>教务系统<br>http://jw.stu.edu.cn<br>预约中心<br>http://booking.stu.edu.cn<br>学生事务系统<br>http://xg.stu.edu.cn<br>互助学习中心<br>http://slc.stu.edu.cn<br>研究生事务系统<br>http://gs.stu.edu.cn<br>网络和一卡通服务<br>http://uptime.stu.edu.cn<br>图书馆资源<br>http://www.lib.stu.edu.cn<br>学校邮箱WEB版<br>http://m.stu.edu.cn<br>
       </p>
     `,
         tel: `

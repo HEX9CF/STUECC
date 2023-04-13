@@ -9,6 +9,9 @@ Page({
     <br>
       <p style="text-align: center">
         <h2>干饭</h2>
+      <p style="font-size: 12px">
+人是铁饭是钢，一餐不吃饿得慌
+      </p>
       </p>
     `,
     hr: `<br><hr><br>`,
