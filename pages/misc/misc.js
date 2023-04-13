@@ -10,7 +10,7 @@ Page({
       <p style="text-align: center">
         <h2>其他</h2>
         <p style="font-size: 12px">
-        生活像海洋，只有意志坚强的人才能到达彼岸
+        生活就像海洋，只有意志坚强的人才能到达彼岸
         </p>
       </p>
     `,
@@ -48,9 +48,7 @@ ATM自助存取款一体机：第二食堂旁<br>
     website: `
       <p style="text-align: center">
         <h3>智慧校园 常用网址</h3>
-      <p style="font-size: 12px">
-      需接入汕头大学校园网
-      </p>
+      <p style="font-size: 12px">需接入校园网</p>
       </p>
       <p style="text-align: center">
 汕头大学主页<br>http://www.stu.edu.cn<br>宿舍管理系统<br>http://xg.stu.edu.cn<br>校内办公信息网<br>http://oa.stu.edu.cn<br>水电管理系统<br>http://power.stu.edu.cn<br>数字化教学平台<br>http://my.stu.edu.cn<br>宿舍报修系统<br>http://repair.stu.edu.cn<br>教务系统<br>http://jw.stu.edu.cn<br>预约中心<br>http://booking.stu.edu.cn<br>学生事务系统<br>http://xg.stu.edu.cn<br>互助学习中心<br>http://slc.stu.edu.cn<br>研究生事务系统<br>http://gs.stu.edu.cn<br>网络和一卡通服务<br>http://uptime.stu.edu.cn<br>图书馆资源<br>http://www.lib.stu.edu.cn<br>学校邮箱WEB版<br>http://m.stu.edu.cn<br>

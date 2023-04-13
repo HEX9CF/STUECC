@@ -18,11 +18,11 @@
     <!-- <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button> -->
     <!-- <button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button> -->
     <!-- <button bindtap="translateMarker" class="page-body-button" type="primary">移动标注</button> -->
-    <button bindtap="includePoints" class="page-body-button" type="primary">定位至东海岸校区</button>
+    <button bindtap="includePoints" class="page-body-button" type="primary">定位至公交站</button>
   </view>
   <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ bus }}" space="nbsp"></rich-text>
-  <rich-text nodes="<br>"></rich-text>
+  <!-- <rich-text nodes="<br>"></rich-text> -->
 <image src="../../images/bus1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
 <image src="../../images/bus2.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
 </view>

@@ -8,9 +8,9 @@ Page({
         title: `
       <br>
       <p style="text-align: center">
-        <h2>汕头大学东海岸校区</h2>
+        <h2>东海岸校区导览</h2>
         <p style="font-size: 12px">
-        East Campus, Shantou University
+        East Coast Campus
         </p>
       </p>
     `,

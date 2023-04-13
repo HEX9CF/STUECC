@@ -17,74 +17,58 @@ Page({
     hr: `<br><hr><br>`,
     first: `
       <p style="text-align: center">
-        <h3>一号饭堂</h3>
+        <h3>一号食堂</h3>
+      <p style="font-size: 12px">FIRST CANTEEN</p>
       </p>
     `,
     second: `
       <p style="text-align: center">
-        <h3>二号饭堂</h3>
+        <h3>二号食堂</h3>
+      <p style="font-size: 12px">SECOND CANTEEN</p>
       </p>
     `,
     third: `
       <p style="text-align: center">
-        <h3>三号饭堂</h3>
+        <h3>三号食堂</h3>
+      <p style="font-size: 12px">THIRD CANTEEN</p>
       </p>
-    `
+    `,
+    latitude: 23.413634,
+    longitude: 116.837799,
+    markers: [
+      {
+        id: 1,
+        latitude:23.411831,
+        longitude: 116.842685,
+        name: '汕头大学东海岸校区第三食堂'
+      },
+      {
+        id: 2,
+        latitude: 23.412423,
+        longitude: 116.841025,
+        name: '汕头大学东海岸校区第二食堂'
+      }
+    ],
     },
+  onReady: function (e) {
+    this.mapCtx = wx.createMapContext('myMap')
+  },
+  includePoints: function () {
+    this.mapCtx.includePoints({
+      padding: [10],
+      points: [
+      {
+        latitude:23.411831,
+        longitude: 116.842685,
+        // name: '汕头大学东海岸校区第三食堂'
+      },
+      {
+        latitude: 23.412423,
+        longitude: 116.841025,
+        // name: '汕头大学东海岸校区第二食堂'
+      }
+    ]
+    })
+  }
 
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad(options) {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload() {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh() {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom() {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage() {
-
-    }
 })
