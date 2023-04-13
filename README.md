@@ -11,6 +11,7 @@ WXML+WXSS+JS
 #### 使用说明
 
 扫码或微信搜索STUECC
+
 ![小程序](https://foruda.gitee.com/images/1681377157460251686/5d2c6c4b_8148862.jpeg)
 
 #### 参与贡献
