@@ -3,13 +3,8 @@
   <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ express }}" space="nbsp"></rich-text>
   <rich-text nodes="<br>"></rich-text>
-<image src="../../images/express1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
   <rich-text nodes="{{ hospital }}" space="nbsp"></rich-text>
   <rich-text nodes="{{ facility }}" space="nbsp"></rich-text>
-<image src="../../images/shop1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/barber1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/atm1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/washer1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
   <rich-text nodes="{{ website }}" space="nbsp"></rich-text>
   <rich-text nodes="{{ tel }}" space="nbsp"></rich-text>
 </view>
