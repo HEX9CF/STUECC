@@ -24,15 +24,9 @@
   </view>
   <rich-text nodes="{{hr}}"></rich-text>
   <rich-text nodes="{{ first }}" space="nbsp"></rich-text>
-    <image style="width: 100%" src="../../images/ct11.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct12.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct13.jpg" mode="widthFix"></image>
+  <image src="../../images/ct1.jpg" style="width: 100%" mode="widthFix"></image>
   <rich-text nodes="{{ second }}" space="nbsp"></rich-text>
-    <image style="width: 100%" src="../../images/ct21.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct22.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct23.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct24.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct25.jpg" mode="widthFix"></image>
-    <image style="width: 100%" src="../../images/ct26.jpg" mode="widthFix"></image>
+  <image src="../../images/ct2.jpg" style="width: 100%" mode="widthFix"></image>
   <rich-text nodes="{{ third }}" space="nbsp"></rich-text>
+  <image src="../../images/ct3.jpg" style="width: 100%" mode="widthFix"></image>
 </view>
