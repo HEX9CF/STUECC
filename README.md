@@ -2,7 +2,9 @@
 
 #### 介绍
 
-一款为STU学生提供东海岸校区信息查询服务的小程序，提供校区地图、饭堂菜单、交通信息等服务。
+一款为STU学生提供东海岸校区信息查询服务的小程序，提供校区地图、交通信息等服务。
+
+A mini program that provides East Coast campus information query services for STU students, providing campus maps, transportation information, and other services.
 
 #### 软件架构
 
