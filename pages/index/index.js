@@ -51,7 +51,7 @@ Page({
         <br>
         <p style="text-align: center; font-size: 12px">
         本项目采用Apache-2.0协议进行开源<br>
-        项目地址：https://gitee.com/HEX9CF/stuecc<br>
+        项目地址：https://github.com/HEX9CF/STUECC<br>
         </p>
         <br>
         <p style="text-align: center">
