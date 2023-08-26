@@ -6,7 +6,7 @@
 
 A mini program that provides East Coast campus information query services for STU students, providing campus maps, transportation information, and other services.
 
-#### 软件架构
+#### 技术栈
 
 WXML+WXSS+JS
 
