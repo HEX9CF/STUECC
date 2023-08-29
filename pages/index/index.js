@@ -56,7 +56,7 @@ Page({
         <br>
         <p style="text-align: center">
         Powered by HEX9CF<br>
-        联系QQ：919586570<br>
+        Email: hex9cf@aliyun.com<br>
         </p>
         `
     },
