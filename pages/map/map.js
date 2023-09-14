@@ -3,13 +3,13 @@ Page({
     title: `
     <br>
       <p style="text-align: center">
-        <h2>东海岸校区 校园地图</h2>
+        <h2>校区地图</h2>
       <p style="font-size: 12px">
 你有地图吗？我在你心里迷路了
       </p>
       </p>
     `,
-    hr: `<br><hr><br>`,
+    hr: `<br><hr>`,
     latitude: 23.413634,
     longitude: 116.837799,
     markers: [

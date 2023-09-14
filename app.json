@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/map/map",
-    "pages/food/food",
+    "pages/living/living",
     "pages/traffic/traffic",
     "pages/misc/misc",
     "pages/logs/logs"
@@ -31,10 +31,10 @@
         "text": "地图"
       },
       {
-        "pagePath": "pages/food/food",
+        "pagePath": "pages/living/living",
         "iconPath": "images/tabBarIcon1.png",
         "selectedIconPath": "images/tabBarIcon2.png",
-        "text": "干饭"
+        "text": "生活"
       },
       {
         "pagePath": "pages/traffic/traffic",

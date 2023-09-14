@@ -7,7 +7,7 @@
     <rich-text nodes="{{hr}}"></rich-text>
     <rich-text nodes="{{motto}}"></rich-text>
     <rich-text nodes="{{hr}}"></rich-text>
-    <rich-text nodes="{{address}}" space="nbsp"></rich-text>
+    <rich-text nodes="{{contact}}" space="nbsp"></rich-text>
     <rich-text nodes="{{hr}}"></rich-text>
     <!-- <rich-text nodes="{{campusIntro}}" space="nbsp"></rich-text> -->
     <!-- <rich-text nodes="{{hr}}"></rich-text> -->
