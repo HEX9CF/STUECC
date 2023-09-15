@@ -22,11 +22,10 @@
   </view>
   <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ bus }}" space="nbsp"></rich-text>
-  <!-- <rich-text nodes="<br>"></rich-text> -->
-<image src="../../images/k9_1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/k3_1.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/k9_2.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
-<image src="../../images/k3_2.jpg" style="width: 100%" mode="widthFix" webp="true"></image>
+<image src="../../images/k9_1.jpg" style="width: 100%" mode="widthFix"></image>
+<image src="../../images/k3_1.jpg" style="width: 100%" mode="widthFix"></image>
+<image src="../../images/k9_2.jpg" style="width: 100%" mode="widthFix"></image>
+<image src="../../images/k3_2.jpg" style="width: 100%" mode="widthFix"></image>
   <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ shuttle }}" space="nbsp"></rich-text>
   <rich-text nodes="{{ hr }}"></rich-text>

@@ -40,7 +40,7 @@ Page({
         学生宿舍楼均配备电梯，每间宿舍均配备了空调、独立卫生间、独立洗澡房、书柜、衣柜、学习桌椅等。
         </p>
         </div>
-<img src="https://stuecc.stu.edu.cn/__local/E/68/95/C30B15D98F16435496E6012068E_CF3D31D2_FE30.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/E/68/95/C30B15D98F16435496E6012068E_CF3D31D2_FE30.jpg" style="width: 100%" ></img>
     `,
         express: `
       <div style="margin:5%">
@@ -55,7 +55,7 @@ Page({
 翠峰路汕头大学东海岸校区<br>
         </p>
         </div>
-<img src="https://stuecc.stu.edu.cn/__local/B/3E/94/C6C4E70FEBEB2B6BB58437F244C_B81AAF9A_17EEE.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/B/3E/94/C6C4E70FEBEB2B6BB58437F244C_B81AAF9A_17EEE.jpg" style="width: 100%" ></img>
     `,
         hospital: `
       <div style="margin:5%">
@@ -72,36 +72,36 @@ Page({
       <div style="margin:5%">
       <p style="text-align: center">
         <h3>生活配套设施</h3>
-        <p style="font-size: 12px; text-align: center">来源：https://stuecc.stu.edu.cn/zhfw/shpt.htm </p>
+        <p style="font-size: 12px; text-align: center">来源：https://stuecc.stu.edu.cn/zhfw/shpt.htm</p>
       </p>
       <p style="text-align: center">
 超市<br>
 第二食堂一楼西北侧<br>
-<img src="https://stuecc.stu.edu.cn/__local/8/54/2E/FD05C0517A08B63341CE33EFC91_FE28D918_15EDA.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/8/54/2E/FD05C0517A08B63341CE33EFC91_FE28D918_15EDA.jpg" style="width: 100%"></img>
 <br><br>
 水果店<br>
 第二食堂旁，学生宿舍C座后靠近F座一侧<br>
-<img src="https://stuecc.stu.edu.cn/__local/C/F5/CE/317C4135639717CB56633867456_59A29F77_14BCA.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/C/F5/CE/317C4135639717CB56633867456_59A29F77_14BCA.jpg" style="width: 100%"></img>
 <br><br>
 理发店<br>
 第二食堂旁，靠近学海路与美华路交界一侧<br>
-<img src="https://stuecc.stu.edu.cn/__local/3/DD/B4/7CD89B78E7D1162130AF28D45DE_89CDD619_2A352.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/7/6A/4F/CD3732A73A3757CAB3833E30287_4B13C3C9_2062A.jpg" style="width: 100%"></img>
 <br><br>
 ATM自助存取款一体机<br>
 第二食堂旁，理发店对面<br>
-<img src="https://stuecc.stu.edu.cn/__local/8/9F/2B/12E86936F526AD8DE138CEA2FDD_F23500BD_32E79.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/3/DD/B4/7CD89B78E7D1162130AF28D45DE_89CDD619_2A352.jpg" style="width: 100%"></img>
 <br><br>
 自助洗衣机与烘干机<br>
 每个学生宿舍一楼<br>
-<img src="https://stuecc.stu.edu.cn/__local/7/6A/4F/CD3732A73A3757CAB3833E30287_4B13C3C9_2062A.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/8/9F/2B/12E86936F526AD8DE138CEA2FDD_F23500BD_32E79.jpg" style="width: 100%"></img>
 <br><br>
 文印室<br>
 第一食堂旁，靠近学海路与美华路交界一侧<br>
-<img src="https://stuecc.stu.edu.cn/__local/2/80/B3/4BAF6AC6F998B50D2149D88BE2C_896D80FA_1C0DB.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/2/80/B3/4BAF6AC6F998B50D2149D88BE2C_896D80FA_1C0DB.jpg" style="width: 100%"></img>
 <br><br>
 自助打印机<br>
 学生宿舍一楼<br>
-<img src="https://stuecc.stu.edu.cn/__local/0/1F/3B/F57D48865D7DF41958BE00064AE_7B6BF856_149CC.jpg" style="width: 100%" mode="widthFix"></img>
+<img src="https://stuecc.stu.edu.cn/__local/0/1F/3B/F57D48865D7DF41958BE00064AE_7B6BF856_149CC.jpg" style="width: 100%"></img>
 <br><br>
         </p>
         </div>

@@ -1,11 +1,11 @@
 // pages/misc/misc.js
 Page({
 
-    /**
-     * 页面的初始数据
-     */
-    data: {
-        title: `
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    title: `
     <br>
       <p style="text-align: center">
         <h2>其他</h2>
@@ -14,7 +14,17 @@ Page({
         </p>
       </p>
     `,
-        hr: `<br><hr>`,
+    hr: `<br><hr>`,
+    timetable: `
+      <div style="margin:5%">
+      <p style="text-align: center">
+        <h3>上课时间对照表</h3>
+      </p>
+<p>
+说明： 每节课时间长度为45分钟。每天上课的节次分别为：上午5节、下午5节和晚上3节。作息时间调整自2017年春季学期开始执行。“12”表示第1~2节；“345”表示第3~5节。<br>
+</p>
+      </div>
+    `,
     website: `
       <div style="margin:5%">
       <p style="text-align: center">
@@ -26,7 +36,7 @@ Page({
       </p>
       </div>
     `,
-        tel: `
+    tel: `
 
       <div style="margin:5%">
       <p style="text-align: center">
@@ -757,61 +767,61 @@ style="color:black;">86500127</span></span></span>
 </table>
 </div>
 `
-    },
+  },
 
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad(options) {
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad(options) {
 
-    },
+  },
 
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady() {
 
-    },
+  },
 
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
 
-    },
+  },
 
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide() {
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide() {
 
-    },
+  },
 
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload() {
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload() {
 
-    },
+  },
 
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh() {
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh() {
 
-    },
+  },
 
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom() {
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom() {
 
-    },
+  },
 
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage() {
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage() {
 
-    }
+  }
 })

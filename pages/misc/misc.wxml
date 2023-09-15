@@ -1,6 +1,9 @@
 <view>
   <rich-text nodes="{{ title }}"></rich-text>
   <rich-text nodes="{{ hr }}"></rich-text>
+  <rich-text nodes="{{ timetable }}" space="nbsp"></rich-text>
+<image src="../../images/time1.png" style="width: 100%" mode="widthFix"></image>
+  <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ website }}" space="nbsp"></rich-text>
   <rich-text nodes="{{ hr }}"></rich-text>
   <rich-text nodes="{{ tel }}" space="nbsp"></rich-text>
