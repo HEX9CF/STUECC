@@ -31,6 +31,8 @@
   <rich-text nodes="{{hr}}"></rich-text>
   <rich-text nodes="{{ express }}" space="nbsp"></rich-text>
   <rich-text nodes="{{hr}}"></rich-text>
+  <rich-text nodes="{{ stadium }}" space="nbsp"></rich-text>
+  <rich-text nodes="{{hr}}"></rich-text>
   <rich-text nodes="<br>"></rich-text>
   <rich-text nodes="{{ hospital }}" space="nbsp"></rich-text>
   <rich-text nodes="{{hr}}"></rich-text>

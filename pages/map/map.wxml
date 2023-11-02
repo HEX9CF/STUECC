@@ -26,6 +26,7 @@
 <image src="../../images/map1.jpg" style="width: 100%" mode="widthFix"></image>
 <image src="../../images/map2.jpg" style="width: 100%" mode="widthFix"></image>
 <image src="../../images/map3.jpg" style="width: 100%" mode="widthFix"></image>
+  <image src="https://stuecc.stu.edu.cn/__local/0/0A/8E/28D8CCBE041A63217D94F090C6F_3D7254F3_1CF93.png" style="width: 100%" mode="widthFix"></image>
   <rich-text nodes="{{hr}}"></rich-text>
 <image src="../../images/e0.jpg" style="width: 100%" mode="widthFix"></image>
 <image src="../../images/e1.jpg" style="width: 100%" mode="widthFix"></image>
