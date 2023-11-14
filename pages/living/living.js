@@ -1,6 +1,5 @@
 // pages/food/food.js
 Page({
-
     /**
      * 页面的初始数据
      */
@@ -49,11 +48,20 @@ Page({
         <h3>快递</h3>
       </p>
       <p style="text-align: center">
-校园综合服务中心（邮政快递点） <br>
+<h4> 校园综合服务中心（邮政快递点） </h4><br>
 位置：学生宿舍J座1楼<br><br>
 收件地址<br>
 广东省 汕头市 澄海区 凤翔街道<br>
 翠峰路汕头大学东海岸校区<br>
+<br><br>
+<h4>汕头大学东海岸校区菜鸟驿站</h4>
+<p style="font-size: 12px; text-align: center">来源：菜鸟APP</p>
+<br>
+驿站地址<br>
+凤翔街道汕头东海岸新城塔岗围片区<br>
+汕大东海岸校区生活区学生宿舍10栋<br>
+<br>
+营业时间：周一至周日 10:00-20:00
         </p>
         </div>
 <img src="https://stuecc.stu.edu.cn/__local/B/3E/94/C6C4E70FEBEB2B6BB58437F244C_B81AAF9A_17EEE.jpg" style="width: 100%" />
@@ -64,8 +72,7 @@ Page({
         <h3>校医院</h3>
       </p>
       <p style="text-align: center">
-东海岸校区校医院：学生宿舍B座2楼<br>
-急诊电话：0754-86500120
+        急诊电话：0754-86500120
       </p>
       </div>
     `,
@@ -105,7 +112,6 @@ Page({
         </p>
         </div>
     `,
-
     facility: `
       <div style="margin:5%">
       <p style="text-align: center">
@@ -144,42 +150,5 @@ Page({
 </p>
 </div>
     `,
-    latitude: 23.413634,
-    longitude: 116.837799,
-    markers: [
-      {
-        id: 1,
-        latitude:23.411831,
-        longitude: 116.842685,
-        name: '汕头大学东海岸校区第三食堂'
-      },
-      {
-        id: 2,
-        latitude: 23.412423,
-        longitude: 116.841025,
-        name: '汕头大学东海岸校区第二食堂'
-      }
-    ],
-    },
-  onReady: function (e) {
-    this.mapCtx = wx.createMapContext('myMap')
-  },
-  includePoints: function () {
-    this.mapCtx.includePoints({
-      padding: [10],
-      points: [
-      {
-        latitude:23.411831,
-        longitude: 116.842685,
-        // name: '汕头大学东海岸校区第三食堂'
-      },
-      {
-        latitude: 23.412423,
-        longitude: 116.841025,
-        // name: '汕头大学东海岸校区第二食堂'
-      }
-    ]
-    })
   }
-
 })

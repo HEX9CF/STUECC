@@ -2,6 +2,7 @@
 <view>
     <image style="width: 100%" src="../../images/banner1.jpg" mode="widthFix"></image>
 </view>
+</view>
 <view>
     <rich-text nodes="{{title}}"></rich-text>
     <rich-text nodes="{{hr}}"></rich-text>
@@ -12,5 +13,4 @@
     <rich-text nodes="{{contact}}" space="nbsp"></rich-text>
     <rich-text nodes="{{hr}}"></rich-text>
     <rich-text nodes="{{footer}}"></rich-text>
-</view>
 </view>
