@@ -19,3 +19,11 @@ A mini program that provides East Coast campus information query services for ST
 然而，认证过程需要向平台支付费用。由于我们的小程序属于公益性质，收入有限，无法承担这笔认证费用，因此小程序的“被分享”功能受到了限制，导致**无法被搜索和分享**。
 
 为了继续使用该小程序，用户需通过**扫描二维码**直接进入。进入小程序后，建议**收藏小程序**，以便日后便捷访问。
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
