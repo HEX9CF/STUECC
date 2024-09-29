@@ -20,7 +20,7 @@ A mini program that provides East Coast campus information query services for ST
 
 为了继续使用该小程序，用户需通过**扫描二维码**直接进入。进入小程序后，建议**收藏小程序**，以便日后便捷访问。
 
-#### 参与贡献
+## 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
