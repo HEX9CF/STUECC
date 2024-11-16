@@ -10,7 +10,7 @@ A mini program that provides East Coast campus information query services for ST
 
 扫码或~~微信搜索STUECC~~。
 
-![小程序](https://foruda.gitee.com/images/1681377157460251686/5d2c6c4b_8148862.jpeg)
+![image](https://github.com/user-attachments/assets/37cff365-ecdd-4ef3-b2ec-9a06dc461882)
 
 ## 注意
 
